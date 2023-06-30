@@ -1,0 +1,21 @@
+.questionario {
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.questionario__opcoes--inativo {
+  display: none;
+}
+
+.questionario__etiqueta {
+  font-size: 32px;
+  width: max-content;
+  margin-right: 8px;
+}
+
+.seletor {
+  font-size: 32px;
+  width: max-content;
+}

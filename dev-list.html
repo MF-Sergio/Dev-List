@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica | Escolhas</title>
+    <link rel="stylesheet" href="./dev-list.css">
+</head>
+
+<body>
+    <section class="questionario">
+        <div>
+            <label class="questionario__etiqueta" for="seletor-de-area">Selecione uma área</label>
+            <select id="seletor-de-area" class="seletor" data-area>
+                <option value="" selected disabled></option>
+                <option value="front-end">Front-end</option>
+                <option value="back-end">Back-end</option>
+            </select>
+        </div>
+        <div class="questionario__opcoes-front questionario__opcoes--inativo">
+            <label class="questionario__etiqueta" for="seletor-linguagem-front">Selecione uma linguagem do
+                Front-end</label>
+            <select id="seletor-linguagem-front" class="seletor" data-frontOpcoes>
+                <option value="" selected disabled></option>
+                <option value="react">React</option>
+                <option value="vue">Vue</option>
+            </select>
+        </div>
+        <div class="questionario__opcoes-back questionario__opcoes--inativo">
+            <label class="questionario__etiqueta" for="seletor-linguagem-back">Selecione uma linguagem do
+                Back-end</label>
+            <select id="seletor-linguagem-back" class="seletor" data-backOpcoes>
+                <option value="" selected disabled></option>
+                <option value="c#">C#</option>
+                <option value="java">Java</option>
+            </select>
+        </div>
+        <div class="questionario__opcoes-objetivo questionario__opcoes--inativo">
+            <label class="questionario__etiqueta" for="seletor-objetivo">Selecione um objetivo</label>
+            <select id="seletor-objetivo" class="seletor" data-objetivo>
+                <option value="" selected disabled></option>
+                <option value="area-escolhida">Seguir se especializando na área escolhida</option>
+                <option value="fullstack">Seguir se desenvolvendo para se tornar Fullstack</option>
+            </select>
+        </div>
+        <ul class="lista-tecnologias">
+
+        </ul>
+    </section>
+
+    <script src="./dev.list.js"></script>
+</body>
+
+</html>
