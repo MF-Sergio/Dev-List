@@ -38,11 +38,6 @@
   - arrow function
   - classList.add/.remove
   - setInterval
-<br>
-  
-## Deploy do app :dash:
-
-> https://mf-sergio.github.io/Dev-List/
 
 <br>
 
