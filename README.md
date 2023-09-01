@@ -41,7 +41,7 @@
 
 <br>
 
-## Deploy da página :dash:
+## Deploy do app :dash:
 
 > https://dev-list-amber.vercel.app
 
