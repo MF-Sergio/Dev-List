@@ -41,6 +41,12 @@
 
 <br>
 
+## Deploy da página :dash:
+
+> https://dev-list-amber.vercel.app
+
+<br>
+
 ## Linguagens utilizadas :books:
 
 - `HTML5`
