@@ -38,11 +38,12 @@
   - arrow function
   - classList.add/.remove
   - setInterval
+
 <br>
-  
+
 ## Deploy do app :dash:
 
-> https://mf-sergio.github.io/Dev-List/
+> https://dev-list-amber.vercel.app
 
 <br>
 
